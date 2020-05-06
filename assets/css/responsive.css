@@ -1,0 +1,90 @@
+/* Medium Layout: 1280px. 
+
+Checking Point: 1000px
+Width: 970px
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    
+    .reviews-area .owl-carousel .owl-item img {
+        margin-left: 98px;
+    }
+
+
+}
+
+
+/* Tablet Layout: 768px. 
+
+Checking Point: 800px
+Width: 750px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+
+
+}
+
+
+/* Mobile Layout: 320px. 
+
+Checking Point: 320px
+Width: 300px
+*/
+@media only screen and (max-width: 767px){
+    
+    .header-area .col-xl-3 {
+        width: 50%;
+    }
+    .header-area .col-xl-9 {
+        width: 50%;
+    }
+    .logo h4 {
+        font-size: 50px;
+        padding-left:0 ;
+    }
+    .navbar {
+        float: right;
+    }
+	.navbar-toggler {
+    background-color: #fff;
+	font-size:13px;
+}
+    .header-area {
+        background-color: #170e08;
+    }
+    .welcome-content h4 {
+        font-size: 29px;
+    }
+    .welcome-content h2 {
+        font-size: 37px;
+    }
+    .reviews-area .owl-carousel .owl-item img {
+        margin-left: 96px;
+    }
+    .single-blog {
+
+        margin-bottom: 31px;
+        border-bottom: dotted 1px;
+        padding-bottom: 10px;
+    
+    }
+    .single-menu {
+        padding-bottom: 15px;
+        border-bottom: dotted 1px;
+        margin-bottom: 15px;
+    }
+    .single-contact{
+        
+        padding-bottom: 15px;
+        border-bottom: dotted 1px;
+        margin-bottom: 15px;
+    }
+    .blog-area{
+        padding-bottom: 0;
+    }
+
+
+
+}
